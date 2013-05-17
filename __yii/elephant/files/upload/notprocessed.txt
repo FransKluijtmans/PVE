@@ -1,0 +1,109 @@
+6247 - Dhr. AJ  Bloos   - Het veld Plaats is niet correct gevuld.
+16174 - Mevr. WC  Been   - Dit is geen correcte Postcode.
+16633 - Mevr. M  Spelt  Demper - Het veld Plaats is niet correct gevuld.
+16757 - Dhr. RHJ van den Hurk   - Dit is geen correcte Postcode.
+19985 - Dhr. AJM  Huijben   - Het veld Plaats is niet correct gevuld.
+21404 - Dhr. JWT  Kielenstijn   - Dit is geen correcte Postcode.
+22996 - Dhr. SV  Daal   - Dit is geen correcte Postcode.
+25314 - Dhr. CB  Koppenol   - Het veld Plaats is niet correct gevuld.
+26617 - Mevr. JMA  Moors van Kuijk - Dit is geen correcte Postcode.
+29174 - Dhr. GAT van Lieshout   - Dit is geen correcte Postcode.
+31871 - Dhr. JS  Kroeskop   - Het veld Plaats is niet correct gevuld.
+35004 - Mevr. JCE  Versluis van der Made - Het veld Plaats is niet correct gevuld.
+44531 - Mevr. JE  Berends   - Het veld Plaats is niet correct gevuld.
+49044 - Mevr. M van Rhenen  Diepeveen - Het veld Plaats is niet correct gevuld.
+55161 - Dhr. MMP  Cluytens   - Dit is geen correcte Postcode.
+58177 - Dhr. H  Eijtinger   - Het veld Plaats is niet correct gevuld.
+58957 - Dhr. AHG  Vossen   - Dit is geen correcte Postcode.
+59284 - Mevr. NJT van Vught   - Het veld Plaats is niet correct gevuld.
+60987 - Dhr. H el Yazidi   - Dit is geen correcte Postcode.
+66468 - Mevr. SAV  Dirkx   - Het veld Adres is niet correct gevuld.
+73010 - Dhr. MD de Vrueh   - Dit is geen correcte Postcode.
+74446 - Mevr. IJ  Lenoir   - Het veld Plaats is niet correct gevuld.
+76647 - Dhr. SW  Overes   - Het veld Plaats is niet correct gevuld.
+78181 - Dhr. JRWM de Moor   - Dit is geen correcte Postcode.
+83041 - Mevr. MET van Mierlo   - Dit is geen correcte Postcode.
+84338 - Dhr. EA  Oosterkamp   - Dit is geen correcte Postcode.
+90399 - Dhr. T  Aarts   - Dit is geen correcte Postcode.
+95226 - Dhr. R  Schiks   - Dit is geen correcte Postcode.
+97163 - Dhr. J  Stavast   - Dit is geen correcte Postcode.
+97287 - Dhr. JM van den Broek   - Dit is geen correcte Postcode.
+98096 - Dhr. PK  Scholte   - Het veld Plaats is niet correct gevuld.
+99649 - Dhr. J  Sleeboom   - Het veld Plaats is niet correct gevuld.
+100328 - Dhr. W  Bargeman   - Het veld Plaats is niet correct gevuld.
+101216 - Dhr. R  Veenstra   - Het veld Plaats is niet correct gevuld.
+102634 - Mevr. JM  Looise   - Dit is geen correcte Postcode.
+102786 - Dhr. WP  Scheepers   - Dit is geen correcte Postcode.
+104737 - Mevr. EG  Hospel   - Dit is geen correcte Postcode.
+105132 - Dhr. TS  Ansen   - Het veld Adres is niet correct gevuld.
+106119 - Dhr. AAW  Wijnings   - Dit is geen correcte Postcode.
+107129 - Dhr. JFM  Markenstein   - Dit is geen correcte Postcode.
+108355 - Mevr. KS  Pieterson van der Toorn - Het veld Plaats is niet correct gevuld.
+109462 - Mevr. KB van den Bosch van der Meer - Dit is geen correcte Postcode.
+111526 - Dhr. PR  Durrant   - Het veld Adres is niet correct gevuld.
+111668 - Dhr. BF de Swart   - Dit is geen correcte Postcode.
+113121 - Mevr. AGHM  Habraken   - Het veld Plaats is niet correct gevuld.
+114753 - Dhr. JJ van Diggelen   - Het veld Plaats is niet correct gevuld.
+115045 - Dhr. LA  Butter   - Het veld Plaats is niet correct gevuld.
+115124 - Dhr. DAJ  Bergmans   - Dit is geen correcte Postcode.
+118255 - Dhr. MW de Korte   - Dit is geen correcte Postcode.
+119275 - Dhr. AWJ  Heintjes   - Het veld Plaats is niet correct gevuld.
+119845 - Dhr. MJLM  Sichtars   - Dit is geen correcte Postcode.
+120583 - Dhr. J  Meyer   - Het veld Plaats is niet correct gevuld.
+122646 - Dhr. JJ van Mullem   - Het veld Plaats is niet correct gevuld.
+123464 - Dhr. JJM  Krosse   - Het veld Plaats is niet correct gevuld.
+124347 - Mevr. JN van Schijndel van Oosterom - Dit is geen correcte Postcode.
+124368 - Mevr. KG  Keustermans van der Zalm - Dit is geen correcte Postcode.
+125377 - Dhr. SH  Braakhuis   - Dit is geen correcte Postcode.
+128756 - Mevr. JPM van der Muren  Lion - Dit is geen correcte Postcode.
+130798 - Dhr. RJL  Kuipers   - Het veld Plaats is niet correct gevuld.
+130870 - Dhr. SWY  Ho   - Het veld Plaats is niet correct gevuld.
+130890 - Mevr. C van den Heuvel  Visser - Het veld Plaats is niet correct gevuld.
+132436 - Mevr. K  Vandenberk   - Dit is geen correcte Postcode.
+133436 - Mevr. N  Clerkx   - Dit is geen correcte Postcode.
+133596 - Mevr. JHPNPC  Oomen  Beeris - Dit is geen correcte Postcode.
+135280 - Mevr. S  Kocin   - Dit is geen correcte Postcode.
+135423 - Mevr. IJJ van Trier  Janssen - Dit is geen correcte Postcode.
+135756 - Mevr. ALC  Vandendijk  Gielissen - Dit is geen correcte Postcode.
+136116 - Mevr. NJ van der Linden   - Dit is geen correcte Postcode.
+138547 - Dhr. HK  Krijgsman   - Het veld Adres is niet correct gevuld.
+138557 - Mevr. B  Metten  Geijtenbeek - Dit is geen correcte Postcode.
+139617 - Dhr. EFP  Elbers   - Het veld Plaats is niet correct gevuld.
+141528 - Mevr. LEG  Meekels ten Haaft - Dit is geen correcte Postcode.
+141631 - Mevr. M van Poppel   - Dit is geen correcte Postcode.
+142501 - Dhr. ACB  Brokking   - Dit is geen correcte Postcode.
+143787 - Dhr. DH  Baron van Hvell tot Westerflier   - Achternaam is te lang (het maximum is 30 karakters).
+145497 - Dhr. CB van Veelen   - Dit is geen correcte Postcode.
+151898 - Mevr. W van Endert   - Dit is geen correcte Postcode.
+152972 - Mevr. A  Sagut   - Het veld Adres is niet correct gevuld.
+156079 - Dhr. N van Neerrijnen   - Dit is geen correcte Postcode.
+157853 - Mevr. LK  Chirino   - Dit is geen correcte Postcode.
+158691 - Dhr. AJA  Boer   - Het veld Plaats is niet correct gevuld.
+160222 - Mevr. AJM de Kok   - Dit is geen correcte Postcode.
+164997 - Dhr. MC  Meekel   - Het veld Plaats is niet correct gevuld.
+172748 - Dhr. MA  Jansen   - Het veld Plaats is niet correct gevuld.
+172941 - Dhr. WE  Douglas   - Het veld Plaats is niet correct gevuld.
+173112 - Mevr. IC  Pot  Brandsma - Dit is geen correcte Postcode.
+173229 - Dhr. AHJ  Creemers   - Dit is geen correcte Postcode.
+173868 - Dhr. R  Jonker   - Het veld Plaats is niet correct gevuld.
+174353 - Dhr. SFJM  Jansen   - Het veld Plaats is niet correct gevuld.
+177450 - Dhr. G  Kesteleyn   - Dit is geen correcte Postcode.
+178343 - Dhr. DB  Boer   - Het veld Adres is niet correct gevuld.
+178576 - Dhr. EM van Raalte   - Dit is geen correcte Postcode.
+179010 - Dhr. S  Kutlu   - Dit is geen correcte Postcode.
+181313 - Mevr. L  Nolle   - Dit is geen correcte Postcode.
+185986 - Mevr. LMG  Holtman  Klerken - Het veld Plaats is niet correct gevuld.
+192739 - Mevr. KRR  Buijze van den Berg - Dit is geen correcte Postcode.
+193585 - Dhr. EJM  Vanduren   - Dit is geen correcte Postcode.
+194635 - Dhr. AF van Veldhoven   - Dit is geen correcte Postcode.
+199480 - Mevr. MHWG van den Bosch  Mandigers - Dit is geen correcte Postcode.
+200172 - Mevr. JE  Coenradi  Samsom - Het veld Plaats is niet correct gevuld.
+200228 - Dhr. DRLSM van den Clooster baron Sloet tot Everlo   - Achternaam is te lang (het maximum is 30 karakters).
+200259 - Mevr. M  Brebels   - Dit is geen correcte Postcode.
+201242 - Dhr. C  Quirynen   - Dit is geen correcte Postcode.
+202890 - Mevr. Y  Entrop   - Het veld Plaats is niet correct gevuld.
+205223 - Dhr. RHA  Spaak   - Dit is geen correcte Postcode.
+206290 - Dhr. AEM den Ouden   - Dit is geen correcte Postcode.
+209596 - Dhr. JJ  Sherrard   - Het veld Adres is niet correct gevuld.
+223103 - Dhr. MR  Donkersloot   - Dit is geen correcte Postcode.
+224227 - Dhr. JWS  Fredriks   - Dit is geen correcte Postcode.

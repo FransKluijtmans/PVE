@@ -1,0 +1,547 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    YOUR-PROJECT.CSS
+\*------------------------------------*/
+/**
+ * 
+ * Here we set up some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
+@bodyColor: #F5EDE3;//#E6E6E6;//#DFF0D8;
+@supportBodyColor: #fff;//#DFF0D8;
+@footerColor: @bodyColor;//#EFEFEF;
+@raboBlue: #183787;
+@raboOrange: #ff6600;
+@raboColorLight: lighten(#183787, 62%);
+@fontColor: #000;
+@fontFamily: sans-serif;
+@mainGrey: #ccc;
+// Fonts families
+@fontFamily: 'Open Sans', sans-serif;
+@fontFamilyHeader: 'Montserrat', sans-serif;
+//@fontFamilyHeader: 'PT Sans', sans-serif;
+//@fontFamilyHeader: 'PT Serif', sans-serif;
+//@fontFamilyHeader: 'Lora', serif;
+//@fontFamilyHeader: 'Glegoo', serif;
+
+/**
+ * Setup
+ */
+@import "vars.less";
+@import "inuit.css/inuit.less";
+
+
+/**
+ * She’s all yours, cap’n... Begin importing your stuff here.
+ */
+ html, body {height: 100%;}//for: http://www.cssstickyfooter.com/using-sticky-footer-code.html;
+
+ body{
+ 	background-color: @bodyColor;
+ 	color: @fontColor;
+    font-family: @fontFamily;
+ }
+ h1,h2,h3,h4,h5,h6{
+ 	font-family: @fontFamilyHeader;
+ 	//font-family: @fontFamily;
+ }
+
+a{
+	color: @raboBlue;
+}
+p + ul { margin-top: -1.6em; }
+
+.wrapper{
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+ .page-container{
+ 	height: auto;
+ 	min-height: 100%;//for: http://www.cssstickyfooter.com/using-sticky-footer-code.html;
+ 	margin: 0 auto -100px;
+    .clear{
+    	overflow:auto;//for: http://www.cssstickyfooter.com/using-sticky-footer-code.html;
+		//padding-bottom: 100px;//for: http://www.cssstickyfooter.com/using-sticky-footer-code.html;
+    }
+ }
+
+ nav{
+ 	margin: 0;
+ 	padding: 0px 24px;
+ 	background-color: @supportBodyColor;
+ 	ul{
+ 		margin:0;
+ 	}
+ 	.nav{
+ 		padding: 0;
+ 		li{
+ 			padding: 16px 0 10px 0;
+ 			&:hover{
+ 				border-bottom: 2px solid @raboColorLight;
+ 			}
+ 			&.active{
+ 				border-bottom: 2px solid @raboBlue;
+ 				&:hover{
+	 				border-bottom: 2px solid @raboBlue;
+	 			}
+ 			}
+	 		a{
+	 			color: #303030;
+				padding: 0 15px;
+				border-left: 1px dotted #ccc;
+				text-transform: uppercase;
+				&:hover{
+					text-decoration: none;
+				}
+	 		}
+	 		&:first-child a{
+				border-left: none;
+	 		}
+	 	}
+ 	}
+ }
+
+.home{
+	margin-top: 2.4rem;
+}
+
+ .home-content, .content, .news-content{
+ 	margin: 0 0 1.0rem 0;
+ 	h2{
+ 		margin-bottom: 0;
+		color: @raboBlue;
+	}
+ }
+ .content{
+ 	background-color: @supportBodyColor;
+ 	padding: 24px;
+ }
+
+.overviewList{
+	margin-left: -24px;
+	margin-bottom: 1.0rem;
+	background-color: @supportBodyColor;
+	&>li{
+		list-style:none;
+		margin: 0;
+		padding: 20px;
+		border-bottom: solid 6px @bodyColor;
+		&:last-child{
+			border-bottom:none;
+	 	}
+		.tagarea{
+			margin: 20px 0 20px 0;
+			border-top: 1px dotted #ccc;
+		}
+	}
+}
+ .peevee{
+ 	margin: 24px 0 24px 0;
+ 	background-color: @supportBodyColor;
+ 	list-style: none;
+ 	h4{
+ 		margin-bottom: 0;
+ 	}
+ 	& > li{
+ 		padding:20px 20px 0 20px;
+ 		border-bottom: 1px dotted #ccc;
+ 		border-right: 3px solid @raboBlue;
+ 		&:first-child{
+ 			padding: 0;
+ 			background-color: @bodyColor;
+ 			border: 0;
+ 			h2{
+ 				margin-bottom: 0;
+ 			}
+ 		}
+ 	}
+ }
+ footer{
+	//margin-top: -100px; /* negative value of footer height *///for: http://www.cssstickyfooter.com/using-sticky-footer-code.html;
+	height: 100px; 
+	clear:both;
+ 	background-color: @footerColor;
+ 	border-top: 1px solid @raboOrange;
+ 	padding: 10px 0;
+ 	.nav-footer{
+ 		display: inline;
+ 		float:left;
+ 		list-style: none;
+ 		margin-left: 24px;
+ 		&:first-child{
+ 			margin-left: 0;
+ 		}
+ 		h2{
+ 			font-size: medium;
+ 			margin-bottom: 0.6rem;
+ 		}
+ 	}
+ }
+
+//
+// Pager pagination
+// --------------------------------------------------
+
+.pager {
+  //margin: @baseLineHeight 0;
+  margin: 0 0 0 -24px;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  background-color: @supportBodyColor;
+  //.clearfix();
+	ul{
+		margin: 0;
+  	
+		li {
+			display: inline;
+			a {
+				display: inline-block;
+				padding: 5px 14px;
+				color: @fontColor;
+				//border: 1px solid #ddd;
+				//.border-radius(15px);
+				&:hover {
+					text-decoration: none;
+					color: @raboBlue;
+				}
+			}
+		}
+		.next a {
+			float: right;
+		}
+		.previous a {
+			float: left;
+		}
+		.active{
+			font-weight: bold;
+		}
+		.disabled{
+			a, a:hover{
+				color: #ccc;
+				cursor: default;
+			}
+		}
+	}
+}
+
+//
+// Breadcrumbs
+// --------------------------------------------------
+.breadcrumbs{
+	margin: 6px 0;
+	color: #666;
+	li:first-child{
+		margin: 0 0.4rem 0 0;
+	}
+	li{
+		display: inline;
+		margin: 0 0.4rem;
+		&.breadcrumbs__inactive{
+			font-weight: bold;
+		}
+	}
+}
+
+//
+// Tables
+// --------------------------------------------------
+.tableOverview{
+	tr{
+		border-bottom: 1px dotted #ccc;
+		td:first-child{
+			width:12.0rem;
+		}
+	}
+	tr:first-child{
+		border-top: solid 4px #ccc;
+	}
+	.odd{
+
+	}
+	.even{
+		background-color: darken(@supportBodyColor, 2%);
+	}
+	.tableDetailRow{
+		background-color:@raboColorLight;
+		 table{
+			margin: 0;
+			tr{
+				border: none;
+				td{
+					padding: 0  0 2px 0;
+				}
+			}
+		}
+	}
+}
+
+//
+// Login
+// --------------------------------------------------
+.loginForm{
+	background-color: @supportBodyColor;
+	h2{
+		padding: 20px 20px 0 20px;
+	}
+	.extraInfoLogin{
+		clear:both;
+		padding: 20px;
+		border-top: 1px dotted #ccc;
+		p{
+			margin-bottom: 0;
+		}
+	}
+	ul{
+		li{
+			padding: 0 20px 0 20px;
+			input[type=text], input[type=password]{
+				max-width: 100%;
+			}
+		}
+	}
+	ul.loggedinlist{
+		margin:0 0 10px 0;
+		li{
+			list-style: none;
+			margin:0;
+			&:last-child{
+				padding-bottom: 20px;
+			}
+		}
+	}
+}
+
+//
+// Buttons
+// --------------------------------------------------
+.btn{
+	float: right;
+	color: white;
+	background-color: lighten(@raboOrange, 4%);
+	&:hover{
+		background-color: @raboOrange;
+		text-decoration: underline;
+	}
+}
+.btn--formNextStep{
+	.btn;
+	color:@raboBlue;
+	background-color: @supportBodyColor;
+	&:hover{
+		background-color: inherit;
+	}
+}
+
+//
+// Forms
+// --------------------------------------------------
+input[type=text], input[type=password]{
+	cursor: text;
+	border: 1px solid @mainGrey;
+    color: #444444;
+    height: 34px;
+    min-width: 180px;
+    padding: 4px 6px;
+    vertical-align: middle;
+    &:focus{
+    	border: 1px solid darken(@mainGrey, 10%);
+    }
+}
+.errorMessage {
+	color: red;
+}
+.form-fields{
+	clear:both;
+	li{
+		margin: 20px 0 20px 0;
+		&:last-child{
+			padding-bottom: 38px;
+		}
+		&:focus{
+			border: 1px solid red;
+		}
+	}
+	.rememberMe > label{
+		display: inline;
+		margin-left: 10px;
+	}
+}
+.form-fields--readonly{
+	.form-fields;
+	label{
+		width:200px;
+		display: block;
+		float:left;
+		font-weight: bold;
+	}
+	input[type="text"]{
+		//width:auto;
+		height:auto;
+		padding:0;
+		border: none;
+		vertical-align: inherit;
+	}
+	li:last-child{
+		padding-top: 10px;
+		border-top: 1px dotted #CCCCCC;
+	}
+}
+input[type=text], input[type=password]{
+	width:100%;
+	max-width: 360px;
+}
+input[type="submit"]{
+	cursor: pointer;
+}
+.divider{
+	clear:both;
+	margin-top: 10px!important;
+    padding: 4px!important;
+	border-top: 1px dotted #ccc;
+	p{
+		margin-bottom: 0;
+	}
+}
+//
+// activitylist frontend
+// --------------------------------------------------
+.activiteitenOverzicht{
+	margin-left:-24px;
+	ul.actOverviewList{
+		margin:0;
+		color: white;
+		h2{
+			color: white;
+			display:inline-block;
+		}
+		li{
+			list-style: none;
+			padding: 12px;
+			span{
+				display:inline-block;
+				margin-left: 12px;
+			}
+			a{
+				color:white;
+			}
+			.applications{
+				display:block;
+				margin: -12px;
+				height: 72px;
+				float:right;
+				/* RGBa with 0.6 opacity */
+				background-color: rgba(255, 255, 255, 0.15);
+				i{
+					padding: 0 14px 0 10px;
+					font-size: 3.4rem;
+					font-weight:bold;
+					color: white;
+					letter-spacing: -3px;
+				}
+			}
+		}
+		li:nth-of-type(1){
+			background-color: @raboOrange;
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		} 
+		li:nth-of-type(2){
+			background-color: lighten(@raboOrange, 4%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}
+		li:nth-of-type(3){
+			background-color: lighten(@raboOrange, 8%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}
+		li:nth-of-type(4){
+			background-color: lighten(@raboOrange, 12%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}  
+		li:nth-of-type(5){
+			background-color: lighten(@raboOrange, 16%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}  
+		li:nth-of-type(6){
+			background-color: lighten(@raboOrange, 20%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}  
+		li:nth-of-type(7){
+			background-color: lighten(@raboOrange, 24%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}  
+		li:nth-of-type(8){
+			background-color: lighten(@raboOrange, 28%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}
+		li:nth-of-type(9){
+			background-color: lighten(@raboOrange, 32%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}
+		li:nth-of-type(10){
+			background-color: lighten(@raboOrange, 36%);
+			border-bottom: solid 1px darken(@raboOrange, 4%);
+		}    
+	}
+	.tabs{
+		margin:0 0 24px 0;
+		li{
+			display: inline-block;
+			width:50%;
+			margin:0 -4px 0 0;
+			background-color: @bodyColor;
+			list-style: none;
+			padding: 12px;
+			&:hover{
+				background-color: darken(@bodyColor, 2%);
+			}
+			&.ui-tabs-active{
+				background-color: @raboOrange;
+				&:hover{
+					background-color: darken(@raboOrange, 2%);
+				}
+				a{
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+//
+// activiteitenagenda
+// --------------------------------------------------
+.fc-event-skin {
+    background-color: lighten(@raboOrange, 6%)!important;
+    border: none;
+    &:hover{
+		background-color: @raboOrange!important;
+    }
+}
+.fc-event{
+	//margin: 0!important;
+	margin-left:6px!important;
+	padding: 2px 4px!important;
+	border:none!important;
+	//border-style:none!important;
+}
+.fc-event-skin{
+	border:none!important;
+}
+.fc-state-highlight{
+	//background-color: lighten(@raboOrange, 40%)!important;
+}
+
+//
+// Js classes
+// --------------------------------------------------
+.activeDisplay{
+	display: none;
+}
+.fixed{
+	position: fixed;
+	top: 0;
+}
